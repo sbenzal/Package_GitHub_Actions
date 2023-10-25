@@ -1,0 +1,15 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net7.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <PackageId>mydotnetpacknugetpkg</PackageId>
+    <VersionPrefix>1.0.0</VersionPrefix>
+    <Authors>sbenzal</Authors>
+    <Company>Zivra</Company>
+    <PackageDescription>NuGet package ejemplo con dotnet pack!</PackageDescription>
+    <RepositoryUrl>https://github.com/sbenzal/Package_GitHub_Actions.git</RepositoryUrl>
+  </PropertyGroup>
+
+</Project>
