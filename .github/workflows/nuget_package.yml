@@ -3,7 +3,7 @@ jobs:
   dotnetpack_nugetpush_job:
     runs-on: ubuntu-latest
     env:
-      projectpath: ./nugetdemo/mydotnetpacknugetpkg/mydotnetpacknugetpkg.csproj
+      projectpath: mydotnetpacknugetpkg.csproj
       buildconfiguration: release
       outputpath: mypkgout
       runid: ${{github.run_id}}
