@@ -25,7 +25,8 @@ jobs:
        #run: dotnet build ${projectpath} --configuration ${buildconfiguration} --no-restore
 
      - name: Pack as nuget with dotnet
-       run: dotnet pack ${projectpath} --configuration ${buildconfiguration} --output ${outputpath} --versionsuffix ${runid} --no-build --no-restore
+       run: dotnet pack ${projectpath} --configuration ${buildconfiguration} --output ${outputpath} -p:VersionSuffix=${runid} --no-build --no-restore
+       #run: dotnet pack ${projectpath} --configuration ${buildconfiguration} --output ${outputpath} --versionsuffix ${runid} --no-build --no-restore
        #run: dotnet pack ${projectpath} --configuration ${buildconfiguration} --output ${outputpath} --no-build --no-restore
 
      - name: Publish Nuget to GitHub registry
