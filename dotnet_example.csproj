@@ -6,6 +6,7 @@
     <Nullable>enable</Nullable>
     <PackageId>mydotnetpacknugetpkg</PackageId>
     <VersionPrefix>1.0.0</VersionPrefix>
+    <VersionSuffix>$(VersionSuffix)</VersionSuffix>
     <Authors>sbenzal</Authors>
     <Company>Zivra</Company>
     <PackageDescription>NuGet package ejemplo con dotnet pack!</PackageDescription>
