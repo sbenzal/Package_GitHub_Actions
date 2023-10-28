@@ -2,6 +2,7 @@ on: [push]
 jobs:
   dotnetpack_nugetpush_job:
     runs-on: ubuntu-latest
+    permissions: write-all
     env:
       projectpath: ./dotnet_example.csproj
       buildconfiguration: release
